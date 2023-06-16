@@ -1,7 +1,18 @@
 ПРЕДУСЛОВИЕ
 Зайти под учетной записью разработчика
 ШАГИ
-Получить список сотрудников командой GET api/v1/developer/employee
+1. Получить список сотрудников командой GET api/v1/developer/employee
+Тело запроса:
+{
+            "username": "company_user1",
+            "first_name": "company_user1",
+            "last_name": "company_user1",
+            "email": "company_user1@example.com",
+            "phone": "9803449861",
+            "country": 1,
+            "is_banned": False,
+        }
+
 ОР
 200 OK
  
